@@ -1,9 +1,4 @@
 
-### Rails
-- Official Blog tutorial: This official ruby on rails guide page goes thorough building a blog from scratch. Good starting point. **https://guides.rubyonrails.org/getting_started.html**
-- Hackernews clone with rails: This tutorial cover rails 5, but student should be able to follow the tutorial and make it work with rails 8. **https://www.codementor.io/@danielchinedu/building-a-basic-hacker-news-clone-with-rails-5-4gr4hrbis**
-- Rails 8 with typecraft: This contains all current features and live coding to understand how things work. **https://www.youtube.com/watch?v=4q1RWZABhKE&list=PLHFP2OPUpCebdA4-xR07SPpoBWVERkHR6&index=3** 
-
 ### Rails Open-source 
 Working with open-source is a great way to learn about how every-changing softwares work with rails to get things done. It gives you practical world experience of using rails outside of tutorials and simple crud apps. But, how do you find a good open-source project to contribute to and how do you even get started. 
 
@@ -20,6 +15,3 @@ Some good open-source projects that I am contributing to
 Some projects that I am considering contributing to 
 - [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
 - [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
-
-### Build you project/business idea/hobby project
-Buid something that you actively use. This is a good way to build product sense for yourself. For example, I built and deployed a link aggregator service to use for myself.
