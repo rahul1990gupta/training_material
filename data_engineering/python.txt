@@ -2,19 +2,37 @@
 2. Basic Python Questions - 
 
    2.1 Fibbonaci series (Iterative and Recursive)
+
    2.2 First 50 Prime Numbers
+
    2.3 Write a program to find out the max number among any three numbers.
+
    2.4 Rotate the Matrix anti-clockwise 
+
    2.5 Write a Python program that opens a given text file in read mode and performs various operations.     (also try using defaultdict and counter)
        The program should count and display the total number of lines, words, and letters (alphabetic characters) in the file. 
        Additionally, it should calculate the frequency of each character in a case-insensitive manner and display the characters 
        in ascending order based on their occurrences. Ensure the program handles cases where the file is empty or contains special characters.
+       
    2.6 Write a Python program that uses a regular expression to validate email addresses. 
        The program should take an email as input and determine whether it is valid or invalid based on standard 
        email formatting rules. A valid email should start with alphanumeric characters, and it may include dots (.), 
        underscores (_), or hyphens (-) before the "@" symbol. The domain name should contain only alphanumeric characters 
        and may include dots but must have a valid top-level domain (e.g., .com, .org, .in). Display whether the given email 
        is valid or invalid based on these criteria.    
+
+    2.7 Essential Python Standard Libraries for Data Engineers (explore these standard Libraries and do one example each)
+
+      * os - Interacts with the operating system (file handling, directory creation, environment variables).
+      * shutil - Performs file operations like copying, moving, and deleting files.
+      * argparse - Parses command-line arguments for configurable scripts.
+      * collections - Provides specialized data structures like Counter, deque, and defaultdict.
+      * itertools - Offers efficient iterators for combinations, permutations, and more.
+      * functools - Optimizes functions with caching (lru_cache) and higher-order functions.
+      * datetime - Handles date and time operations, formatting, and time calculations.
+      * unittest - Supports writing and running automated test cases.
+      * json - Reads, writes, and manipulates JSON data for APIs and configurations.
+      * requests (third-party but widely used) - Fetches data from APIs via HTTP requests.   
 
 3. Numpy
 
@@ -275,7 +293,7 @@
         - Add a smooth trend line using Seaborn
 
   Part 5: Interactive & Live Data Visualization
-  
+
    What to Learn
 
      - Using matplotlib.animation
