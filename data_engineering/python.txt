@@ -13,7 +13,7 @@
        The program should count and display the total number of lines, words, and letters (alphabetic characters) in the file. 
        Additionally, it should calculate the frequency of each character in a case-insensitive manner and display the characters 
        in ascending order based on their occurrences. Ensure the program handles cases where the file is empty or contains special characters.
-       
+
    2.6 Write a Python program that uses a regular expression to validate email addresses. 
        The program should take an email as input and determine whether it is valid or invalid based on standard 
        email formatting rules. A valid email should start with alphanumeric characters, and it may include dots (.), 
@@ -22,6 +22,7 @@
        is valid or invalid based on these criteria.    
 
     2.7 Essential Python Standard Libraries for Data Engineers (explore these standard Libraries and do one example each)
+        https://docs.python.org/3/library/index.html
 
       * os - Interacts with the operating system (file handling, directory creation, environment variables).
       * shutil - Performs file operations like copying, moving, and deleting files.
