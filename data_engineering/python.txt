@@ -1,0 +1,304 @@
+1. Python Introduction (scripting lang, operators, datatypes, methods)
+2. Basic Python Questions - 
+
+   2.1 Fibbonaci series (Iterative and Recursive)
+   2.2 First 50 Prime Numbers
+   2.3 Write a program to find out the max number among any three numbers.
+   2.4 Rotate the Matrix anti-clockwise 
+   2.5 Write a Python program that opens a given text file in read mode and performs various operations.     (also try using defaultdict and counter)
+       The program should count and display the total number of lines, words, and letters (alphabetic characters) in the file. 
+       Additionally, it should calculate the frequency of each character in a case-insensitive manner and display the characters 
+       in ascending order based on their occurrences. Ensure the program handles cases where the file is empty or contains special characters.
+   2.6 Write a Python program that uses a regular expression to validate email addresses. 
+       The program should take an email as input and determine whether it is valid or invalid based on standard 
+       email formatting rules. A valid email should start with alphanumeric characters, and it may include dots (.), 
+       underscores (_), or hyphens (-) before the "@" symbol. The domain name should contain only alphanumeric characters 
+       and may include dots but must have a valid top-level domain (e.g., .com, .org, .in). Display whether the given email 
+       is valid or invalid based on these criteria.    
+
+3. Numpy
+
+   3.1 How can you determine the number of dimensions of a NumPy array?
+   3.2 How do you find the shape (rows and columns) of a NumPy array?
+   3.3 How can you get the total number of elements in a NumPy array?
+   3.4 How do you check the data type of elements in a NumPy array?
+   3.5 How can you reshape a NumPy array without changing its data?
+   3.6 How do you convert a multi-dimensional array into a one-dimensional array?
+   3.7 How can you create a NumPy array filled with zeros or ones?
+   3.8 How do you create a NumPy array with a range of values?
+   3.9 How can you generate evenly spaced values in a NumPy array?
+   3.10 How do you find the maximum and minimum values in a NumPy array?
+   3.11 How can you compute the sum and mean of elements in a NumPy array?
+   3.12 How do you extract unique values from a NumPy array?
+   3.13 How can you join two NumPy arrays together?
+
+   3.14 Data Processing in a Project
+         You are working on a data analytics project where you receive a dataset in the form of a list of numbers. 
+         Convert this list into a NumPy array and perform the following operations:
+
+         image = np.array([
+            [120, 135, 150],
+            [200, 215, 230],
+            [50,  75,  100]
+        ])
+
+         Find the total number of elements, shape, and dimensions of the array.
+         Reshape the array into a 2D format (if possible).
+         Calculate the sum, mean, and maximum value of the dataset.
+
+         Example List: [12, 45, 78, 23, 56, 89, 34, 67, 90, 21]
+
+         How will you use NumPy functions to efficiently process this data?
+
+   3.15 In image processing, an image can be represented as a NumPy array, where each pixel value ranges from 0 to 255. 
+        Given a grayscale image represented by a 3×3 NumPy array:
+     
+        image = np.array([
+           [120, 135, 150],
+           [200, 215, 230],
+           [50,  75,  100]
+       ])
+
+        Perform the following operations:
+
+        Find the shape and size of the image array.
+        Flatten the image into a 1D array.
+        Normalize the pixel values to a range between 0 and 1 by dividing by 255.
+        Find the maximum and minimum pixel intensity values in the image.
+
+        How will these operations help in real-world image processing tasks?
+
+4 Pandas
+
+  4.1 DataFrame Creation and Basic Operations
+
+    - Load the Titanic dataset into a Pandas DataFrame.
+    - Display the first 10 rows of the dataset.
+    - How many rows and columns does the Titanic dataset have?
+    - What are the column names of the dataset?
+    - What are the data types of each column?
+    - Get a statistical summary of the numerical columns.
+    - How many survivors are in the dataset?
+
+  4.2 Selecting & Filtering Data
+
+    - Select only the "Name" and "Age" columns from the dataset.
+    - Find all passengers who were older than 30 years.
+    - Find all passengers who were in 1st class (Pclass = 1).
+    - Find all female passengers who survived (Survived = 1).
+    - Find the passengers who paid a fare greater than 100.
+
+  4.3 Handling Missing Data
+
+    - How many missing values are there in each column?
+    - Fill missing values in the "Age" column with the column’s mean age.
+    - Drop all rows where the "Cabin" value is missing.
+    - Replace missing values in the "Embarked" column with the most frequent value.
+
+  4.4 Sorting & Grouping Data
+
+    - Sort passengers by "Fare" in descending order.
+    - Sort the dataset first by "Pclass", then by "Age".
+    - Find the average fare paid by passengers in each class (Pclass).
+    - Find the survival rate of passengers grouped by gender.
+
+  4.5 Modifying DataFrames
+
+    - Add a new column "Family_Size", which is the sum of SibSp (siblings/spouses) and Parch (parents/children).
+    - Add a new column "Fare_Per_Person", which is the Fare divided by Family_Size.
+    - Rename the "Survived" column to "Survival_Status".
+    - Remove the "Ticket" column from the dataset.
+    - Reset the index of the dataset after dropping missing values.
+
+  4.6 Concatenation:
+
+    - Split the Titanic dataset into two separate DataFrames (first half and second half).
+    - Use pd.concat() to merge them back together.
+
+  4.7 Merging DataFrames:
+
+    - Create a DataFrame with Pclass and average fare.
+    - Merge it with the original Titanic dataset on Pclass.
+
+  4.8 Joining DataFrames:
+
+    - Create a new DataFrame with passenger ID and nationality.
+    - Use pd.merge() to join it with the Titanic dataset on passenger ID.
+   
+
+  4.9 File Operations
+
+    - Save the modified DataFrame as a CSV file.
+    - Save the dataset in Excel format.
+    - Load the dataset from a JSON file.
+
+  4.7 Sales Data Analysis https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
+
+    You are working as a data analyst for a supermarket chain. The company has provided you with a CSV file named "supermarket_sales.csv" containing sales data from different branches. The dataset includes the following attributes:
+
+    Invoice ID: Unique identifier for each transaction
+    Branch: Branch of the supercenter (A, B, or C)
+    City: Location of the branches
+    Customer Type: Whether the customer is a Member or Normal
+    Gender: Male or Female
+    Product Line: Category of the purchased item
+    Unit Price: Price of each product in dollars
+    Quantity: Number of products purchased
+    Tax: 5% tax applied to the purchase
+    Total: Final price including tax
+    Date: Date of purchase
+    Time: Time of purchase
+    Payment: Payment method used (Cash, Credit Card, E-wallet)
+    COGS: Cost of goods sold
+    Gross Margin Percentage: Profit margin percentage
+    Gross Income: Profit from the transaction
+    Rating: Customer rating (1 to 10)
+
+    Perform the following tasks using Pandas:
+
+    - Load the dataset from "supermarket_sales.csv" into a Pandas DataFrame.
+    - Display the first 10 rows of the dataset.
+    - Check the number of missing values in each column.
+    - Replace any missing values in the Rating column with the average rating.
+    - Calculate the total revenue generated by each product line.
+    - Identify the top 5 branches that generated the highest total revenue.
+    - Find which customer type (Member or Normal) spends more on average.
+    - Analyze which payment method was used the most.
+    - Save the cleaned dataset into a new CSV file called "cleaned_supermarket_sales.csv" without the index column.
+  
+   Boolean Filtering
+
+    - Filter transactions where the Total amount is greater than $500.
+    - Retrieve purchases where Gender is "Female" and Product Line is "Fashion accessories".
+    - Filter purchases made on a Saturday or Sunday.
+    - Extract transactions where Payment is "E-wallet" and Branch is "A".
+    - Identify customers who gave a Rating < 4 and spent more than $200.
+    - Filter transactions where Members spent more than Normal customers on average.
+    - Find transactions where Gross Income and Total Revenue are in the top 10%.
+   
+5. Matplotlib
+
+   Read about the following essential Matplotlib concepts from the Matplotlib Official Documentation: https://matplotlib.org/stable/
+
+    - xlabel, ylabel (Set axis labels)
+    - title (Set chart title)
+    - annotation (Add text at specific points in the plot)
+    - subplot() (Create multiple plots in a single figure)
+    - subplots() (More flexible version of subplot)
+    - xlabel for specific subplots
+    - Setting title for a specific subplot
+    - facecolor (Set background color for individual subplots)
+    - figure.facecolor (Change background color for the entire plot)
+    - label (Legend labeling for plotted data)   
+
+
+ 5.1 Dataset: NYC Taxi Trip Data (download the data and load it)
+
+  
+    Exercise 1: Plot NYC Taxi Trips Over Time
+
+      Task:
+
+        - Load the dataset (use yellow_tripdata_2023-01.csv).
+        - Convert the tpep_pickup_datetime column to a datetime format.
+        - Count the number of trips per hour and plot a line graph.
+        - Add a title, x-axis label, y-axis label, and grid.
+
+      Bonus Challenge:
+
+        - Change line color and style
+        - Highlight peak hours using markers
+
+  Part 2: Visualizing NYC Taxi Trip Statistics
+
+      What to Learn
+
+        - Plotting from Pandas DataFrames
+        - Using plot(kind='bar'), plot(kind='hist'), and plot(kind='scatter')
+        - Formatting time-based data
+
+    Exercise 2: Fare Amount vs. Trip Distance
+
+      Task:
+
+        - Load the dataset and filter unrealistic fares (fare_amount > 1).
+        - Create a scatter plot: x-axis as trip_distance, y-axis as fare_amount.
+        - Set different colors for trips with more than 2 passengers.
+        - Add labels, title, and a trendline.
+
+      Bonus Challenge:
+
+        - Log-transform fare_amount to improve scale visibility
+        - Add a legend
+
+  Part 3: Subplots & Multiple Charts
+
+      What to Learn
+
+       Using plt.subplot() for multiple visualizations
+       Adjusting figure size and layout
+
+    Exercise 3: NYC Taxi Daily Trends
+
+      Task:
+
+        - Group data by day and calculate total trips per day.
+        - Create a 2x1 subplot:
+            - Subplot 1: Line chart for daily trips
+            - Subplot 2: Bar chart showing average fare per day
+        - Adjust figure size and labels.
+
+     Bonus Challenge:
+
+        - Change subplot layout (e.g., 2x2)
+        - Adjust spacing using plt.tight_layout()
+
+  Part 4: Advanced Customization & Styling
+
+    What to Learn
+
+      - Customizing colors, themes, and annotations
+      - Using Seaborn for styling
+
+    Exercise 4: Peak Hours & Passenger Count
+
+      Task:
+
+        - Extract the hour from the tpep_pickup_datetime column.
+        - Group by hour and count trips.
+        - Create a bar chart showing the number of trips per hour.
+        - Use different colors for peak and non-peak hours.
+
+      Bonus Challenge:
+
+        - Annotate the busiest hour
+        - Add a smooth trend line using Seaborn
+
+  Part 5: Interactive & Live Data Visualization
+  
+   What to Learn
+
+     - Using matplotlib.animation
+     - Plotting live data updates
+
+    Exercise 5: Live Update of NYC Taxi Demand
+
+      Task:
+
+        - Simulate real-time taxi demand using numpy.random.randint().
+        - Update the plot every second using FuncAnimation().
+        - Display the last 30 minutes of demand.
+
+      Bonus Challenge:
+
+        - Add a moving average line
+        - Increase update speed
+
+  Final Challenge: NYC Taxi Data Report
+
+       Task:
+
+         - Create at least 4 different visualizations using NYC Taxi data.
+         - Include bar charts, histograms, and time-series plots.
+         - Add annotations, styling, and color themes.
+         - Save all plots as a PDF report using plt.savefig('nyc_taxi_report.pdf').   
