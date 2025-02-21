@@ -1,0 +1,5 @@
+Install spark locally and run a spark job. Follow the getting started guide
+https://spark.apache.org/docs/latest/api/python/getting_started/quickstart_df.html
+
+
+One can also use databricks spark with their AWS account. But it will cost something. 

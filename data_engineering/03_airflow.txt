@@ -1,0 +1,5 @@
+Implement a weather storage pipeline in airflow. This will create and maintain three tables: daily, weekly and monthly weather data. 
+
+See the link below for more details. 
+
+https://dev.to/datamonk_/different-orchestration-tool-analysis-airflow-dagster-flyte-192dhttps://dev.to/datamonk_/different-orchestration-tool-analysis-airflow-dagster-flyte-192d

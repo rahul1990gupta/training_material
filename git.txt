@@ -1,0 +1,5 @@
+https://www.codecademy.com/learn/learn-git
+
+https://git-scm.com/
+
+Put all your notes and exercise solutiosn in corresponding github repositories. 

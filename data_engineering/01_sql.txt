@@ -1,0 +1,2 @@
+Hackerrank SQL challenge
+https://neon.tech/postgresql/tutorial
