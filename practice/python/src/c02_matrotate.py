@@ -11,5 +11,13 @@ rotated matrix = [
     [1, 4, 7]
 ]
 """
+
 def rotate_counter_clockwise(arr):
-    pass
+    n = len(arr)
+
+    narr = [[0 for _ in range(n)] for _ in range(n)]
+
+    for i in range(n):
+        for j in range(n):
+            narr[n-1-j][i] = arr[i][j]
+    return narr        
