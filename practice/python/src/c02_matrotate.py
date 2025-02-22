@@ -11,5 +11,6 @@ rotated matrix = [
     [1, 4, 7]
 ]
 """
+
 def rotate_counter_clockwise(arr):
-    pass
+    pass       
