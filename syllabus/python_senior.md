@@ -28,7 +28,7 @@ https://chatgpt.com/share/67c9954e-b020-8009-96c2-bf122a85b7fe
 - Design a Library class 
 - Design a Bank Account system 
 - Design a Simple ATM simulation 
-
+- Design a LRU(Least Recently Used) Cache
 
 ### Advanced 
 - E commerce 
@@ -39,7 +39,8 @@ https://chatgpt.com/share/67c9954e-b020-8009-96c2-bf122a85b7fe
 - Ride Sharing system 
 - Social Media 
 - Stock Trading system
-
+- Codecrafters Exercises: Free for 7 days 
 
 Reference 
 - https://chatgpt.com/share/67c997f5-4810-8009-b583-2069621025dd
+- https://codecrafters.io/
