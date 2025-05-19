@@ -43,5 +43,13 @@ Let your curiosity guide you. Ask questions and try to answer them yourself.
 
 (Bonus) Run `cat /etc/os-release`. Wasn't `neofetch` just prettier ?
 
-(Bonnus 2) install `cloc`. It counts the line of code in a repository. Run it inside the `training_material` folder via `cloc .`
+(Bonus 2) install `cloc`. It counts the line of code in a repository. Run it inside the `training_material` folder via `cloc .`
 
+
+## Videos 
+
+Linux file system  
+https://www.youtube.com/watch?v=bbmWOjuFmgA
+
+Linux file permissions   
+https://www.youtube.com/watch?v=4N4Q576i3zA
